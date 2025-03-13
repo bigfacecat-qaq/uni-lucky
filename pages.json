@@ -1,0 +1,56 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "BOSS值平",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/test/index",
+		"style": {
+			"navigationBarTitleText": "test"
+			// "navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/menu/index",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#2979ff",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#939393",
+		"selectedColor": "#0033BF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/tabs/home.png",
+				"selectedIconPath": "/static/tabs/home.png"
+			},
+			{
+				"pagePath": "pages/menu/index",
+				"text": "菜单",
+				"iconPath": "/static/tabs/menu.png",
+				"selectedIconPath": "/static/tabs/menu.png"
+			},
+			{
+				"pagePath": "pages/test/index",
+				"text": "我的",
+				"iconPath": "/static/tabs/my.png",
+				"selectedIconPath": "/static/tabs/my.png"
+			}
+
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
