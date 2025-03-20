@@ -51,6 +51,9 @@
 		]
 	},
 	"easycom": {
-		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		"autoscan": true,
+		"custom": {
+			"^u--(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		}
 	}
 }
